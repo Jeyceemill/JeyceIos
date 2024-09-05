@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aula 8 select </title>
+</head>
+
+<body>
+    <form action="#">
+        <p>Destinos</p>
+        <select name="he" id="he">
+            <option disabled selected>Selecione</option>
+            <option value="foz do iguacu">Foz do Iguaçu</option>
+            <option value="bonito">Bonito</option>
+            <option value="arraialdocabo">Arraial do Cabo</option>
+            <option value="brasilia">Brasilia</option>
+            <option value="natal">Natal</option>
+        </select>
+
+    </form>
+    <br><br>
+    <p>Data</p>
+    <input type="text" list="meses">
+    <datalist id="meses">
+        <option value="Janeiro"></option>
+        <option value="Fevereiro"></option>
+        <option value="Março"></option>
+        <option value="Abril"></option>
+        <option value="Maio"></option>
+        <option value="Junho"></option>
+    </datalist>
+    <br><br>
+<label for="feedback">Deixe seu feedback:</label>
+<br>
+<textarea  required cols="20" rows="10" maxlength="300" minlength="300" placeholder="Deixe seu comentário:"></textarea>
+<input type="submit" value="Enviar">
+
+
+</body>
+
+</html>
